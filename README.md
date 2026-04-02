@@ -7,7 +7,7 @@
 ## 📌 Sobre o Projeto
 O **TechJur** é um sistema back-end de gestão jurídica focado no controle e organização de rotinas de um escritório de advocacia. 
 
-Este projeto está sendo desenvolvido de forma colaborativa como parte das atividades práticas do curso de Sistemas para Internet da Uniesp. O objetivo principal é consolidar conhecimentos em Programação Orientada a Objetos e persistência de dados, criando uma integração robusta entre uma aplicação **Java** e um banco de dados relacional (**PostgreSQL**).
+Este projeto está sendo desenvolvido de forma colaborativa como parte das atividades práticas do curso de Sistemas para Internet e Ciencias da Computação da Uniesp. O objetivo principal é consolidar conhecimentos em Programação Orientada a Objetos e persistência de dados, criando uma integração robusta entre uma aplicação **Java** e um banco de dados relacional (**PostgreSQL**).
 
 *Nota: Este repositório reflete as minhas contribuições individuais para a base de dados e a conexão Java do sistema. O repositório central do grupo pode ser acessado [aqui](https://github.com/vhfedatto/pjt-TechJur).*
 
@@ -44,3 +44,16 @@ A estrutura segue boas práticas de separação de responsabilidades:
 1. **Clone este repositório:**
    ```bash
    git clone [https://github.com/AlissonRafaelDev/TechJurBD.git](https://github.com/AlissonRafaelDev/TechJurBD.git)
+   Configure o Banco de Dados:
+
+2. Crie um banco de dados chamado techjur no PostgreSQL.
+
+3. Execute os scripts SQL de criação das tabelas correspondentes (necessária a tabela clientes).
+
+4. Configure as Credenciais:
+
+- Navegue até src/main/java/br/com/techjur/ConexaoBanco.java e insira a senha do seu usuário local.
+
+5. Execute a aplicação:
+
+- Atualize as dependências do Maven e rode a classe Main.java.
